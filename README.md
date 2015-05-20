@@ -1,13 +1,12 @@
 Passport Google OAuth2 Example
 ==============================
 
-This is an example of an Express 4 application using Google for authentication
-via OAuth2.
+This is an Express 4 application using Google for authentication via OAuth2.
 
 Based on the [OAuth2 example](https://github.com/jaredhanson/passport-google-oauth/tree/master/examples/oauth2)
 in Jared Hanson’s [passport-google-oauth](https://github.com/jaredhanson/passport-google-oauth), 
 this Express 4 application uses Passport and the Passport Google OAuth strategy
-to enable users to authenticate with their Google accounts. 
+to enable users to authenticate with their Google accounts.
 
 The client id and client secret needed to authenticate with Google can be set up
 from the [Google Developer's Console](https://console.developers.google.com).
