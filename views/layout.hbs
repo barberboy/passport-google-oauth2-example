@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Passport — Google OAuth 2.0 Example</title>
+	</head>
+	<body>
+		{{#if user}}
+			<p>
+			<a href="/">Home</a> | 
+			<a href="/account">Account</a> | 
+			<a href="/logout">Log Out</a>
+			</p>
+		{{else}}
+			<p>
+			<a href="/">Home</a> | 
+			<a href="/login">Log In</a>
+			</p>
+		{{/if}}
+
+		{{{ body }}}
+
+	</body>
+</html>
