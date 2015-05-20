@@ -44,7 +44,6 @@ passport.use(new GoogleStrategy(
 // Express 4 boilerplate
 
 var app = express();
-app.set('views', __dirname + '/views');
 app.set('view engine', 'hbs');
 
 var logger = require('morgan');
